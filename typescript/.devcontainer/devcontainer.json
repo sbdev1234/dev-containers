@@ -1,0 +1,46 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "TypeScript",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "sbdev1234/base-typescript",
+  "remoteUser": "node",
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "dotfiles.repository": "sbdev1234/cfg-ubuntu",
+        "dotfiles.targetPath": "~/cfg-ubuntu",
+        "dotfiles.installCommand": "install.sh"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "DavidAnson.vscode-markdownlint",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "foxundermoon.shell-format",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "Orta.vscode-jest",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "github.vscode-github-actions",
+        "henriqueBruno.github-repository-manager",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "YoavBls.pretty-ts-errors",
+        "humao.rest-client",
+        "streetsidesoftware.code-spell-checker",
+        "amodio.toggle-excluded-files",
+        "streetsidesoftware.code-spell-checker-british-english",
+        "Orta.vscode-twoslash-queries",
+        "spmeesseman.vscode-taskexplorer"
+      ]
+    }
+  }
+}
