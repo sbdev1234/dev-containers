@@ -4,7 +4,7 @@ Configuration boiler-plates for my dev-containers.
 
 ## Usage
 
-Each type of dev container uses a local base-image. Avoiding the need to publish them, and avoiding slow dev-container builds.
+Each type of dev container uses a local base-image. Avoiding the need to publish the base images, and avoiding slow dev-container builds.
 
 ## Installation
 
