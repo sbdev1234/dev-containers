@@ -24,7 +24,6 @@
         "DavidAnson.vscode-markdownlint",
         "EditorConfig.EditorConfig",
         "esbenp.prettier-vscode",
-        "foxundermoon.shell-format",
         "eamodio.gitlens",
         "ms-azuretools.vscode-docker",
         "redhat.vscode-yaml",
