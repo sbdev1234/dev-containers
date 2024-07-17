@@ -4,28 +4,14 @@ Configuration boiler-plates for my dev-containers.
 
 ## Usage
 
-Each type of dev container uses a local base-image. Avoiding the need to publish the base images, and avoiding slow dev-container builds.
+Each type of dev container uses a local base-image. Avoiding the need to publish the base images, and avoiding slow subsequent dev-container builds.
 
 ## Installation
 
 1. Clone this repo to a local folder.
 2. Create your project's empty git repo folder.
 3. Copy the contents of the desired dev-container folder into your project's git repo folder.
-4. `cd` into your project's `.devContainer/base-image folder
-5. Run `code .`
-
-Configuration boiler-plates for my dev-containers.
-
-## Usage
-
-Each type of dev container uses a local base-image. Avoiding the need to publish the base images, and avoiding slow dev-container builds.
-
-## Installation
-
-1. Clone this repo to a local folder.
-2. Create your project's empty git repo folder.
-3. Copy the contents of the desired dev-container folder into your project's git repo folder.
-4. `cd` into your project's `.devContainer/base-image folder
+4. `cd` into your project's `.devContainer/base-image` folder
 5. Run `code .`
 6. Confirm VSCode's suggestion to run as a dev container. Wait ...
 
