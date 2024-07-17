@@ -1,9 +1,6 @@
+# Ignore devContainer related files
+base-image
 .dockerignore
-.env
-.git
-.gitignore
-.vs
-.vscode
-docker-compose.yml
-docker-compose
-node_modules/
+devcontainer.json
+Dockerfile
+init.sh
