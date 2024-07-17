@@ -2,6 +2,11 @@
 
 Configuration boiler-plates for my dev-containers.
 
+## Assumptions
+
+1. Your are developing on a Ubuntu (Debian) distro.
+2. Docker and VSCode are installed & configured for development on your distro.
+
 ## Usage
 
 Each type of dev container uses a local base-image. Avoiding the need to publish the base images, and avoiding slow subsequent dev-container builds.
@@ -21,10 +26,5 @@ Each type of dev container uses a local base-image. Avoiding the need to publish
     >3. Install the dev-container's extensions.
     >4. Run `npm install`
     >5. Let you know when its finished.
-
-### Assumptions
-
-1. Your are developing on a Ubuntu (Debian) distro.
-2. Docker and VSCode are installed & configured for development on your distro.
 
 ----
