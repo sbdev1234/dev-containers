@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "dbaeumer.vscode-eslint",
+    "DavidAnson.vscode-markdownlint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "ms-azuretools.vscode-docker",
+    "redhat.vscode-yaml",
+    "Orta.vscode-jest",
+    "github.vscode-github-actions",
+    "henriqueBruno.github-repository-manager",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "YoavBls.pretty-ts-errors",
+    "humao.rest-client",
+    "streetsidesoftware.code-spell-checker",
+    "amodio.toggle-excluded-files",
+    "streetsidesoftware.code-spell-checker-british-english",
+    "Orta.vscode-twoslash-queries",
+    "spmeesseman.vscode-taskexplorer"
+  ]
+}

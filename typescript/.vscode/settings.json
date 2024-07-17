@@ -1,0 +1,31 @@
+{
+  "cSpell.userWords": [], // only use words from .cspell.json
+  "cSpell.enabled": true,
+  "editor.formatOnSave": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": [
+    "azuretools",
+    "Birdi",
+    "dbaeumer",
+    "devcontainers",
+    "dotfiles",
+    "eamodio",
+    "esbenp",
+    "humao",
+    "kohler",
+    "mcr",
+    "OOP",
+    "Orta",
+    "sbdev"
+  ],
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": false,
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.surveys.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
