@@ -11,7 +11,7 @@ Each type of dev container uses a local base-image. Avoiding the need to publish
 1. Clone this repo to a local folder.
 2. Create your project's empty git repo folder.
 3. Copy the contents of the desired dev-container folder into your project's git repo folder.
-4. `cd` into your project's `.devContainer/base-image` folder
+4. `cd` into your project's folder
 5. Run `code .`
 6. Confirm VSCode's suggestion to run as a dev container. Wait ...
 
