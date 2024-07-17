@@ -27,4 +27,4 @@ Each type of dev container uses a local base-image. Avoiding the need to publish
     >4. Run `npm install`
     >5. Let you know when its finished.
 
-End.
+Happy coding.
