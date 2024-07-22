@@ -1,6 +1,6 @@
-# dev-containers
+# DevContainer Boilerplate Projects
 
-Configuration boiler-plates for my dev-containers.
+Boilerplate configurations for dev-container based projects.
 
 These boilerplate dev-container projects build and use [customizable](#dev-container-construction) <u>local</u>  base images - to avoid the need to publish/pay to/for a container registry during development. Always configure your post-development base-images to be as small as possible.
 
