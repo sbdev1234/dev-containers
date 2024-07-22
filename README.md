@@ -4,27 +4,39 @@ Configuration boiler-plates for my dev-containers.
 
 ## Assumptions
 
-1. You are developing on a Ubuntu (Debian) distro.
-2. Docker and VSCode are installed & configured for development on your distro.
+1. Ubuntu (Debian) dev platform.
+2. Docker and VSCode are installed & configured for dev-container based development.
 
 ## Usage
 
-Each type of dev container uses a local base-image. Avoiding the need to publish the base images, and avoiding slow subsequent dev-container builds.
+These dev-container boiler-plates build and use <u>local</u> customizable base images - to avoid the need to publish/pay to/for a container registry during development. Always configure your post-development base-images to be as small as possible.
 
 ## Installation
 
-1. Clone this repo to a local folder.
-2. Create your project's empty git repo folder.
-3. Copy the contents of the desired dev-container folder into your project's git repo folder.
-4. `cd` into your project's folder
-5. Run `code .`
-6. Confirm VSCode's suggestion to run as a dev container. Wait ...
+Clone this repo, then:
+
+1. Create a locally cloned empty git repo for your project.
+
+    ```text
+    Eg: /.../<this repo>/
+        /.../<project>/
+    ```
+
+2. Copy the contents of this repo's appropriate boiler-plate's folder into `<project>/`
+
+    ```text
+    Eg: rsync -a <this repo's dir>/typescript/ <your project dir>/
+    ```
+
+3. `cd` into `<your project dir>`
+4. Run `code .`
+5. Confirm VSCode's suggestion to run as a dev container. Wait ...
 
     >VSCode will:
-    >1. Run `init.sh` to build the dev-container's base image.
-    >2. Build the dev-container.
+    >1. Run `<project dir>/.devcontainer/init.sh`, which builds the dev-container's base image.
+    >2. Build the dev-container using the built base image and mount `<your project dir>`
     >3. Install the dev-container's extensions.
-    >4. Run `npm install`
+    >4. Build the boiler-plate project.
     >5. Let you know when its finished.
 
-Happy coding.
+Happy hacking.
