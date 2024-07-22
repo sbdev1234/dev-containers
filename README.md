@@ -1,4 +1,4 @@
-# DevContainer Boilerplate Projects
+# Boilerplate DevContainer Projects
 
 Boilerplate configurations for dev-container based projects.
 
