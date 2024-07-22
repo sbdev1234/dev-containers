@@ -2,7 +2,7 @@
 
 Boilerplate configurations for dev-container based projects.
 
-These boilerplate dev-container projects build and use [customizable](#dev-container-construction) <u>local</u>  base images - to avoid the need to publish/pay to/for a container registry during development. Always configure your post-development base-images to be as small as possible.
+These boilerplate dev-container projects build and use [customizable](#boilerplate-dev-container-construction) ___local___  base images - to avoid the need to publish/pay to/for a container registry during development. Always configure your post-development base-images to be as small as possible.
 
 ## Installation
 
@@ -11,7 +11,7 @@ These boilerplate dev-container projects build and use [customizable](#dev-conta
 1. Ubuntu (Debian) dev platform.
 2. Docker and VSCode are installed & configured for dev-container based development.
 
-### Steps - In brief [[In detail](#installation-details)]
+### Steps - In brief [[In detail](#boilerplate-project-installation)]
 
 1. Create a locally cloned empty git repo for your project.
 2. Copy the contents of this repo's appropriate boiler-plate's folder into `<project>/`
@@ -20,7 +20,7 @@ These boilerplate dev-container projects build and use [customizable](#dev-conta
 5. Confirm VSCode's suggestion to run as a dev container. Wait ...
 6. VSCode will let you know when its finished.
 
-## Dev-Container Construction
+## Boilerplate Dev-Container Construction
 
 Each boilerplate project dev-container is constructed as follows:
 
@@ -34,7 +34,7 @@ dev-container
 
 Use (1) for project customizations. Use (2) to extend (3).
 
-## Installation Details
+## Boilerplate Project Installation
 
 Clone this repo, then:
 
