@@ -2,7 +2,7 @@
 
 Boilerplate configurations for dev-container based projects.
 
-These boilerplate dev-container projects build and use [customizable](#boilerplate-dev-container-construction) ___local___  base images - to avoid the need to publish/pay to/for a container registry during development. Always configure your post-development base-images to be as small as possible.
+These boilerplate dev-container projects build and use [customizable](#dev-container-construction) ___local___  base images - to avoid the need to publish/pay to/for a container registry during development. Always configure your post-development base-images to be as small as possible.
 
 ## Installation
 
@@ -20,7 +20,7 @@ These boilerplate dev-container projects build and use [customizable](#boilerpla
 5. Confirm VSCode's suggestion to run as a dev container. Wait ...
 6. VSCode will let you know when its finished.
 
-## Boilerplate Dev-Container Construction
+## Dev-Container Construction
 
 Each boilerplate project dev-container is constructed as follows:
 
