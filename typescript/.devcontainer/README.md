@@ -1,3 +1,3 @@
 # Boilerplate Typescript DevContainer
 
-Boilerplate configuration for typescript dev-containers using a local customizable Dockerfile base-image created by `init.sh`
+Boilerplate `.devcontainer/` configuration for typescript projects using a local customizable Dockerfile base-image created by `init.sh`
